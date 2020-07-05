@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font size: 16px;
+	font-weight: 800;
+	font-family: 'Oxygen', sans-serif;
+	background-color: lavender
+}
+
+#header-nav{
+	background-color: indigo;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1{
+	font-family: 'Arial', cursive;
+	font-size: 1.75em;
+	color: red;
+	font-weight: bold;
+	margin: auto;
+	margin-bottom: 20px;
+	line-height: 0.75;	
+
+}
+
+.navbar-brand a:hover , #navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list a{
+	color: #ffff99;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#nav-list a:hover{
+	background-color:#ffff99;
+	color:  #000000;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid yellow;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: 20px;
+}
+
+#main-content h2{
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.box{
+	height: 800px;
+	border: 2px solid #000000;
+	background-color: #AFEEEE;
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+	padding: 15px;
+}
+
+h3{
+	position: absolute;
+	top: -22px;
+	right: -2px;
+	font-size: 175%;
+	padding: 2px 50px 5px 50px;
+	border: 2px solid #000000;
+	margin-bottom: 20px;
+	font-weight: 800;
+}
+
+h3#h1{
+	background-color: pink;
+	color: black;
+}
+
+h3#h2{
+	background-color: red;
+	color: black;
+}
+
+h3#h3{
+	background-color:yellow;
+	color: black;
+}
+
+p{
+	padding-top: 60px;
+}
+
+#Chicken a:hover , #Beef a:hover , #Sushi a:hover{
+    text-decoration: none;
+    color: #0000e6;
+}
+
+#Chicken a , #Beef a , #Sushi a{
+	color: blue;
+}
